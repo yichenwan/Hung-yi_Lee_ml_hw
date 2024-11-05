@@ -1,0 +1,15 @@
+ Report Questions
+1. (2%) Implement 2 models with approximately the same number of parameters, (A) one narrower and deeper (e.g. hidden_layers=6, hidden_dim=1024) and (B) the other wider and shallower (e.g. hidden_layers=2, hidden_dim=1750). Report training/validation accuracies for both models.
+
+- hidden_layers=6, hidden_dim=1024:
+Train Acc: 0.61871 Loss: 1.23619 | Val Acc: 0.56187 loss: 1.46933
+- hidden_layers=2, hidden_dim=1750:
+Train Acc: 0.62847 Loss: 1.19712 | Val Acc: 0.56375 loss: 1.44591
+
+2. (2%) Add dropout layers, and report training/validation accuracies with dropout rates equal to (A) 0.25/(B) 0.5/(C) 0.75 respectively.
+- 0.25
+Train Acc: 0.43319 Loss: 1.98897 | Val Acc: 0.46190 loss: 1.84613
+- 0.5
+Train Acc: 0.38528 Loss: 2.21511 | Val Acc: 0.41936 loss: 2.00613
+- 0.75
+Train Acc: 0.28917 Loss: 2.61713 | Val Acc: 0.30596 loss: 2.44250 
